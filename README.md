@@ -2,6 +2,7 @@
 
 I am sorry , I could not find how to create folder to seperate all files, thats why I have them together.
 SCRSHT- screenshots are the proves that codes work.
+HTML, JS and CSS files are for API website which gives date after input.
 
 CsvFetch
 
