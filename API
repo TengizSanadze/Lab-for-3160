@@ -1,10 +1,10 @@
-
+<script>
 
 var request = new XMLHttpRequest()
 
-request.open('GET', 'https://api.nasa.gov/planetary/apod?api_key=fLZPdkHJpu4sA6Xs6c3tLJcJax9hQ1s3Lx7QiWjp', true)
+request.open('GET', 'https://api.nasa.gov/planetary/apod?api_key=nya5EAGP2IDnRX5neXpXvoLcpDecphq0bpvDgC9C', true)
 request.onload = function () {
-// Begin accessing JSON data here
+
 var data = JSON.parse(this.response)
 
 var copyright = data.copyright
