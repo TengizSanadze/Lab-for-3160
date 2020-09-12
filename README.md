@@ -14,8 +14,7 @@ If  the input was wrong, wrote error message.
 
 API
 
-requasted the data from the link, tested the link with boolean, used JSON.parse  method which takes a text and an optional reviver function, and returns
- a JavaScript value if the text is a valid JSON text. 
+For API I created a webpage which takes input from user , you put any city and tells temperature and weather. 
 
 I used java for all the parts as this is the only language I know. 
 I am sure there are other laguages which would save me a lot of time but unfortunatly I didn't have a choice
