@@ -1,4 +1,4 @@
-<script>
+
 
 var request = new XMLHttpRequest()
 
