@@ -2,7 +2,7 @@
 
 CsvFetch
 
-Created class, read the input from csv file, data had a whole line, I used split method to split data into arrays of string ,
+Created class, read the input from csv file, data had a whole line, I used split method to split data  ,
 I chose the value 4 as a price, turned string into number, calculated the sum and average, printed out the average.
 
 Converting the tempreture
