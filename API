@@ -1,0 +1,24 @@
+<script>
+
+var request = new XMLHttpRequest()
+
+request.open('GET', 'https://api.nasa.gov/planetary/apod?api_key=fLZPdkHJpu4sA6Xs6c3tLJcJax9hQ1s3Lx7QiWjp', true)
+request.onload = function () {
+// Begin accessing JSON data here
+var data = JSON.parse(this.response)
+
+var copyright = data.copyright
+var date = data.date
+var explanation = data.explanation
+var media_type = data.media_type
+var service_version = data.service_version
+var title = data.title
+var url = data.url
+  
+document.getElementById("myFrame").src = url;
+}
+
+request.send()
+</script>
+
+<iframe src="" id="myFrame"></iframe>
