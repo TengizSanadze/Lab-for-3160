@@ -1,5 +1,8 @@
 # Lab
 
+I am sorry , I could not find how to create folder to seperate all files, thats why I have them together.
+SCRSHT- screenshots are the proves that codes work.
+
 CsvFetch
 
 Created class, read the input from csv file, data had a whole line, I used split method to split data  ,
